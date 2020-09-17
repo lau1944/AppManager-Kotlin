@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">应用管理员</string>
+    <string name="app_manager">应用管理员</string>
+    <string name="search_app">搜索应用</string>
+    <string name="size">大小 ：</string>
+    <string name="apk_file">apk文件</string>
+    <string name="more_app_options">备份该apk文件</string>
+    <string name="extract_apk">备份apk</string>
+    <string name="share_apk">分享apk</string>
+    <string name="share_via">分享到</string>
+    <string name="turn_on_permission">我们需要您的存储许可</string>
+    <string name="file_extract_location">Apk文件存在</string>
+    <string name="extract">备份</string>
+    <string name="uninstall">卸载</string>
+    <string name="open">打开</string>
+    <string name="package_name">包名</string>
+    <string name="version">版本</string>
+    <string name="data_directory">数据文件位置</string>
+    <string name="category">种类</string>
+    <string name="open_app_link">打开应用链接</string>
+    <string name="last_update">最近更新</string>
+    <string name="permission">权限</string>
+    <string name="no_permission">无需权限</string>
+    <string name="open_setting">打开设置</string>
+    <string name="uninstall_dialog">您确定要删除该app吗?</string>
+    <string name="confirm">确认</string>
+    <string name="no">算了</string>
+    <string name="cannot_find_app">我们找不到该app…</string>
+    <string name="like_app">你喜欢了该app !</string>
+    <string name="data">数据</string>
+    <string name="folder_location">文件位置</string>
+    <string name="extracted_apps">app备份</string>
+    <string name="manage_extracted_file">管理备份的文件</string>
+    <string name="theme">主题</string>
+    <string name="dark_mode">黑暗模式</string>
+    <string name="others">其他</string>
+    <string name="open_app_market">打开app商店</string>
+    <string name="send_us_feedback">给我们评分</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="cache_be_clear">缓存已被清理</string>
+    <string name="done">完成</string>
+    <string name="app_total">应用总计数量 ：</string>
+    <string name="enter_folder_name">输入文件路径</string>
+    <string name="folder_path_updated">文件路径已经更新</string>
+
+</resources>

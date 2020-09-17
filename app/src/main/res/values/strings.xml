@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">App Manager</string>
+    <string name="app_manager">App Manager</string>
+    <string name="search_app">Search app</string>
+    <string name="size">Size :</string>
+    <string name="apk_file">Apk file</string>
+    <string name="more_app_options">Move your apk file forward and backward…</string>
+    <string name="extract_apk">Extract apk</string>
+    <string name="share_apk">Share apk</string>
+    <string name="share_via">Share via</string>
+    <string name="turn_on_permission">We need your permission to transform your files</string>
+    <string name="file_extract_location">Apk File extracted in </string>
+    <string name="extract">Extract</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="open">Open</string>
+    <string name="package_name">Package name</string>
+    <string name="version">Version</string>
+    <string name="data_directory">Data Directory</string>
+    <string name="category">Category</string>
+    <string name="open_app_link">Open app link</string>
+    <string name="last_update">Latest update</string>
+    <string name="permission">Permission</string>
+    <string name="no_permission">No permission</string>
+    <string name="open_setting">Open setting</string>
+    <string name="uninstall_dialog">Are you sure to uninstall this app ?</string>
+    <string name="confirm">Confirm</string>
+    <string name="no">Never mind</string>
+    <string name="cannot_find_app">We cannot find this app…</string>
+    <string name="like_app">You marked this app !</string>
+    <string name="data">data</string>
+    <string name="folder_location">folder location</string>
+    <string name="extracted_apps">Extracted Apps</string>
+    <string name="manage_extracted_file">Manage extracted files</string>
+    <string name="theme">theme</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="others">others</string>
+    <string name="open_app_market">Open App Market</string>
+    <string name="send_us_feedback">Send us feedback</string>
+    <string name="clear_cache">clear cache</string>
+    <string name="cache_be_clear">Cache has been cleared</string>
+    <string name="done">Done</string>
+    <string name="app_total">Total apps count : </string>
+
+    <string name="banner" translatable="false">ca-app-pub-6983891568453871/3643331654</string>
+    <string name="enter_folder_name">Enter folder name</string>
+    <string name="folder_path_updated">Folder path updated</string>
+
+</resources>

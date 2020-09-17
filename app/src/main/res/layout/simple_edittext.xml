@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_15sdp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/folder_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_folder_name"
+        android:background="@color/darkgrey"
+        android:padding="@dimen/_7sdp"
+        android:maxLines="1">
+
+    </com.google.android.material.textfield.TextInputEditText>
+
+</LinearLayout>

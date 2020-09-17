@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/app_bar_normal_state"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/app_manager"
+        android:textColor="@color/colorBackGround"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="@dimen/small_button"
+        android:layout_height="@dimen/small_button"
+        android:src="@drawable/setting"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:tint="@color/colorBackGround"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_marginEnd="@dimen/spacing_normal">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/search_app"
+        android:layout_width="@dimen/small_button"
+        android:layout_height="@dimen/small_button"
+        android:padding="2dp"
+        android:src="@drawable/search"
+        android:layout_centerVertical="true"
+        android:tint="@color/colorBackGround"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_toStartOf="@id/menu">
+
+    </ImageView>
+
+</RelativeLayout>

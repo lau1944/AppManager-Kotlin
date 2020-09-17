@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/_10sdp"
+    android:paddingTop="@dimen/_10sdp"
+    android:id="@+id/extract_app_layout">
+
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:id="@+id/app_icon"
+       android:layout_width="@dimen/_30sdp"
+       android:layout_height="@dimen/_30sdp"
+       android:layout_centerVertical="true"
+       android:layout_marginStart="@dimen/_15sdp">
+
+   </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_toEndOf="@id/app_icon"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:fontFamily="@font/roboto"
+        android:textSize="16sp"
+        android:textColor="@color/colorText"
+        android:layout_toStartOf="@id/delete_app">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/app_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/app_icon"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:fontFamily="@font/roboto"
+        android:textSize="12sp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:textColor="@color/grey"
+        android:layout_below="@id/app_name"
+        android:layout_toStartOf="@id/delete_app">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/delete_app"
+        android:layout_width="@dimen/small_button"
+        android:layout_height="@dimen/small_button"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/delete"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_centerVertical="true"
+        android:tint="@color/grey">
+
+    </ImageView>
+
+</RelativeLayout>

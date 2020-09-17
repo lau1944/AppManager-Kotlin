@@ -19,13 +19,11 @@ Flow , etc...
 
 ### Gradle build
 target sdk 28
-minSdkversion 21
+minSdkversion 19
 
-### Do not run this on version 29
-Environment.getExternalStorageDir() is deprecated, would not create any file on your external storage.
 
-# Structure Explain
-DataSource -> Repostitory -> viewmodel -> view
+# Structure
+DataSource (flow) -> Repostitory -> viewmodel (livedata) -> view
 
 ### Data Layout  
 
